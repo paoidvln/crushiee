@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading...</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+        .loading-container {
+            text-align: center;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="loading-container">
+        <img src="./images/loading.gif" alt="Loading..." width="300">
+        
+    </div>
+
+    <script>
+        setTimeout(() => {
+            window.location.href = "web.html"; // Change to your main website page
+        }, 5000);
+    </script>
+</body>
+</html>
